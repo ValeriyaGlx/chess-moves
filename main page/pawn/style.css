@@ -1,0 +1,169 @@
+html {
+    font-size: 10px;
+    background: url('./bg.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+body,html {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+
+  .title{
+    color: #D9B166;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    font-size: 4em;
+    margin: 2% 7% 0px;
+  }
+
+.header{
+    display: flex;
+    padding-top: 1em;
+  }
+
+.container {
+    
+    padding: 0% 30%;
+    padding-right: 0;
+
+}
+
+#field{
+background: rgba(217, 198, 163, .4);
+width: 585px;
+height: 585px;
+box-sizing: content-box;
+padding-left: 10px;
+padding-top: 10px;
+border: 1px solid #0D0D0D;
+}
+
+
+
+.chess--block{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #0D0D0D;
+    float: left;
+    background: rgba(217, 198, 163, .2)
+}
+
+.bg-black {
+    background-color: #0D0D0D;
+}
+
+
+
+.green {
+    background-color: #BF9F63;
+}
+
+.bishop {
+background-color: rgba(140, 83, 50, .9)
+}
+
+.bishop:after {
+    content: ' ♗';
+    text-align: center;
+    color: #fff;
+    font-size: 600%;
+    position: relative;
+    left: 4px; top:-6px;
+    
+  }
+
+.horse {
+    background-color: rgba(140, 83, 50, .9)
+    }
+    
+.horse:after {
+  content: ' ♘';
+  text-align: center;
+  color: #fff;
+  font-size: 600%;
+  position: relative;
+  left: 4px; top:-6px;
+}
+
+.rook {
+  background-color: rgba(140, 83, 50, .9)
+  }
+  
+.rook:after {
+content: ' ♖';
+text-align: center;
+color: #fff;
+font-size: 600%;
+position: relative;
+left: 4px; top:-6px;
+}
+
+.pawn {
+  background-color: rgba(140, 83, 50, .9)
+  }
+  
+.pawn:after {
+content: ' ♙';
+text-align: center;
+color: #fff;
+font-size: 600%;
+position: relative;
+left: 4px; top:-6px;
+}
+
+.queen {
+  background-color: rgba(140, 83, 50, .9)
+  }
+  
+.queen:after {
+content: ' ♕';
+text-align: center;
+color: #fff;
+font-size: 600%;
+position: relative;
+left: 4px; top:-6px;
+}
+
+    
+.king {
+  background-color: rgba(140, 83, 50, .9)
+}
+        
+.king:after {
+  content: ' ♔';
+  text-align: center;
+  color: #fff;
+  font-size: 600%;
+  position: relative;
+  left: 4px; top:-6px;
+}
+
+.words{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  color: #222026;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.numbers{
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 30px;
+  color: #222026;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+
+.red{
+  background-color: red;
+}
